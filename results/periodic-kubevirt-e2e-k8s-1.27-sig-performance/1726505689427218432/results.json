@@ -1,0 +1,91 @@
+{
+  "JobDirCreationTime": "2023-11-20T08:57:03.311Z",
+  "VMIResult": {
+    "Values": {
+      "CREATE-events-count": {
+        "value": 124.25444444444445
+      },
+      "CREATE-pods-count": {
+        "value": 122.25444444444446
+      },
+      "GET-endpoints-count": {
+        "value": 196.17715555555557
+      },
+      "GET-leases-count": {
+        "value": 314.6584555555556
+      },
+      "GET-nodes-count": {
+        "value": 10.405111111111111
+      },
+      "PATCH-nodes-count": {
+        "value": 5.202555555555556
+      },
+      "PATCH-pods-count": {
+        "value": 215.40782222222225
+      },
+      "PATCH-virtualmachineinstances-count": {
+        "value": 44.52095,
+        "thresholdResult": {
+          "thresholdValue": 244.50888888888892,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 0.36416631069990635,
+          "thresholdExceeded": true
+        }
+      },
+      "UPDATE-endpoints-count": {
+        "value": 118.4813
+      },
+      "UPDATE-leases-count": {
+        "value": 118.4813
+      },
+      "UPDATE-virtualmachineinstances-count": {
+        "value": 582.1711555555555,
+        "thresholdResult": {
+          "thresholdValue": 1222.5444444444447,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 4.76196311881413,
+          "thresholdExceeded": false
+        }
+      },
+      "running-phase-count": {
+        "value": 101
+      },
+      "vmiCreationToRunningSecondsP50": {
+        "value": 15,
+        "thresholdResult": {
+          "thresholdValue": 45,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP95": {
+        "value": 19.5,
+        "thresholdResult": {
+          "thresholdValue": 60,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP99": {
+        "value": 19.9
+      },
+      "vmiDeletionToFailedSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP99": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP99": {
+        "value": 0
+      }
+    }
+  },
+  "VMResult": null
+}
