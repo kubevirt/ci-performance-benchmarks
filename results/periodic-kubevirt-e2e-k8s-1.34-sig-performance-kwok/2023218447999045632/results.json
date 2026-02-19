@@ -1,0 +1,591 @@
+{
+  "JobDirCreationTime": "2026-02-16T05:12:27.413Z",
+  "VMIResult": {
+    "Values": {
+      "CREATE-events-count": {
+        "value": 16026.822178448278
+      },
+      "CREATE-pods-count": {
+        "value": 8012.910344827586
+      },
+      "DELETE-pods-count": {
+        "value": 6131.099183333333
+      },
+      "GET-leases-count": {
+        "value": 2159.4390561972486
+      },
+      "LIST-virtualmachineclusterinstancetypes-count": {
+        "value": 579.6609195402299
+      },
+      "LIST-virtualmachineclusterpreferences-count": {
+        "value": 579.6609195402299
+      },
+      "PATCH-nodes-count": {
+        "value": 58.67246376811594
+      },
+      "PATCH-pods-count": {
+        "value": 18005.781989760122
+      },
+      "PATCH-services-count": {
+        "value": 2318.6436781609195
+      },
+      "PATCH-validatingadmissionpolicies-count": {
+        "value": 579.6609195402299
+      },
+      "PATCH-validatingadmissionpolicybindings-count": {
+        "value": 579.6609195402299
+      },
+      "PATCH-virtualmachineinstances-count": {
+        "value": 13542.244649999999,
+        "thresholdResult": {
+          "thresholdValue": 16025.820689655173,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 1.6900531850754643,
+          "thresholdExceeded": false
+        }
+      },
+      "UPDATE-configmaps-count": {
+        "value": 579.6609195402299
+      },
+      "UPDATE-leases-count": {
+        "value": 3478.968390804597
+      },
+      "UPDATE-virtualmachineinstances-count": {
+        "value": 26844.99412570709,
+        "thresholdResult": {
+          "thresholdValue": 80129.10344827587,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 3.350217707482001,
+          "thresholdExceeded": false
+        }
+      },
+      "WATCH-cdiconfigs-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-cdis-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-clusterrolebindings-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-clusterroles-count": {
+        "value": 16.04597701149425
+      },
+      "WATCH-configmaps-count": {
+        "value": 99.58962568620632
+      },
+      "WATCH-controllerrevisions-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-customresourcedefinitions-count": {
+        "value": 68.44825921305764
+      },
+      "WATCH-daemonsets-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-datasources-count": {
+        "value": 23.205579086319183
+      },
+      "WATCH-datavolumes-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-deployments-count": {
+        "value": 16.04597701149425
+      },
+      "WATCH-ingresses-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-jobs-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-kubevirts-count": {
+        "value": 51.381969411486224
+      },
+      "WATCH-leases-count": {
+        "value": 14.040229885057471
+      },
+      "WATCH-migrationpolicies-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-mutatingwebhookconfigurations-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-namespaces-count": {
+        "value": 36.23421535491343
+      },
+      "WATCH-nodes-count": {
+        "value": 15.112868565717141
+      },
+      "WATCH-persistentvolumeclaims-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-poddisruptionbudgets-count": {
+        "value": 24.068965517241377
+      },
+      "WATCH-pods-count": {
+        "value": 30.086206896551722
+      },
+      "WATCH-prometheusrules-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-resourcequotas-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-rolebindings-count": {
+        "value": 17.04885057471264
+      },
+      "WATCH-roles-count": {
+        "value": 16.04597701149425
+      },
+      "WATCH-secrets-count": {
+        "value": 25.071839080459768
+      },
+      "WATCH-serviceaccounts-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-servicemonitors-count": {
+        "value": 16.04597701149425
+      },
+      "WATCH-services-count": {
+        "value": 22.063218390804597
+      },
+      "WATCH-storageclasses-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-storageprofiles-count": {
+        "value": 9.025862068965516
+      },
+      "WATCH-validatingadmissionpolicies-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-validatingadmissionpolicybindings-count": {
+        "value": 15.043103448275861
+      },
+      "WATCH-validatingwebhookconfigurations-count": {
+        "value": 18.051724137931032
+      },
+      "WATCH-virtualmachinebackups-count": {
+        "value": 22.185268348752096
+      },
+      "WATCH-virtualmachinebackuptrackers-count": {
+        "value": 16.11574212893553
+      },
+      "WATCH-virtualmachineclones-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-virtualmachineclusterinstancetypes-count": {
+        "value": 21.060344827586206
+      },
+      "WATCH-virtualmachineclusterpreferences-count": {
+        "value": 23.066091954022987
+      },
+      "WATCH-virtualmachineexports-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachineinstancemigrations-count": {
+        "value": 7.0201149425287355
+      },
+      "WATCH-virtualmachineinstancepresets-count": {
+        "value": 17.197054828112705
+      },
+      "WATCH-virtualmachineinstancereplicasets-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachineinstances-count": {
+        "value": 31.29837581209395
+      },
+      "WATCH-virtualmachineinstancetypes-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachinepools-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachinepreferences-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachinerestores-count": {
+        "value": 25.22004333385983
+      },
+      "WATCH-virtualmachines-count": {
+        "value": 6.017241379310344
+      },
+      "WATCH-virtualmachinesnapshotcontents-count": {
+        "value": 8.022988505747126
+      },
+      "WATCH-virtualmachinesnapshots-count": {
+        "value": 7.0201149425287355
+      },
+      "avgVirtAPICPUUsage": {
+        "value": 0.028898386231884055
+      },
+      "avgVirtAPIMemoryUsageInMB": {
+        "value": 167.34359846443965
+      },
+      "avgVirtControllerCPUUsage": {
+        "value": 0.2671219066666667
+      },
+      "avgVirtControllerMemoryUsageInMB": {
+        "value": 1386.48013200431
+      },
+      "maxVirtAPIMemoryUsageInMB": {
+        "value": 174.03515625
+      },
+      "maxVirtControllerMemoryUsageInMB": {
+        "value": 2218.078125
+      },
+      "minVirtAPIMemoryUsageInMB": {
+        "value": 129.087890625
+      },
+      "minVirtControllerMemoryUsageInMB": {
+        "value": 523.02734375
+      },
+      "virtControllerWorkqueueAddRate": {
+        "value": 231.90660919540227
+      },
+      "virtControllerWorkqueueDepth": {
+        "value": 0.041609133237822345
+      },
+      "virtControllerWorkqueueP99Latency": {
+        "value": 0.590625709018713
+      },
+      "vmiCreationToRunningSecondsP50": {
+        "value": 0.655180135824001,
+        "thresholdResult": {
+          "thresholdValue": 45,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP95": {
+        "value": 1.767952279217818,
+        "thresholdResult": {
+          "thresholdValue": 60,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP99": {
+        "value": 1.9535904558435635
+      },
+      "vmiDeletionToFailedSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP99": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP99": {
+        "value": 0
+      }
+    }
+  },
+  "VMResult": {
+    "Values": {
+      "CREATE-controllerrevisions-count": {
+        "value": 7992.077057005444
+      },
+      "CREATE-events-count": {
+        "value": 32213.333333333332
+      },
+      "CREATE-pods-count": {
+        "value": 8053.333333333333
+      },
+      "CREATE-virtualmachineinstances-count": {
+        "value": 7992.077057005444
+      },
+      "DELETE-pods-count": {
+        "value": 8053.333333333333
+      },
+      "DELETE-virtualmachineinstances-count": {
+        "value": 5474.931300000001
+      },
+      "GET-leases-count": {
+        "value": 2256.9460391781267
+      },
+      "LIST-configmaps-count": {
+        "value": 1.0066666666666666
+      },
+      "LIST-virtualmachineclusterinstancetypes-count": {
+        "value": 601.9866666666667
+      },
+      "LIST-virtualmachineclusterpreferences-count": {
+        "value": 601.9866666666667
+      },
+      "PATCH-nodes-count": {
+        "value": 58.38666666666666
+      },
+      "PATCH-pods-count": {
+        "value": 17928.733333333334
+      },
+      "PATCH-services-count": {
+        "value": 2407.9466666666667
+      },
+      "PATCH-validatingadmissionpolicies-count": {
+        "value": 601.9866666666667
+      },
+      "PATCH-validatingadmissionpolicybindings-count": {
+        "value": 601.9866666666667
+      },
+      "PATCH-virtualmachineinstances-count": {
+        "value": 17856.54103333333,
+        "thresholdResult": {
+          "thresholdValue": 16106.666666666666,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 2.217285724337748,
+          "thresholdExceeded": false
+        }
+      },
+      "PATCH-virtualmachines-count": {
+        "value": 16017.250266666668
+      },
+      "UPDATE-configmaps-count": {
+        "value": 601.9866666666667
+      },
+      "UPDATE-leases-count": {
+        "value": 3609.9066666666663
+      },
+      "UPDATE-virtualmachineinstances-count": {
+        "value": 27127.653333333332,
+        "thresholdResult": {
+          "thresholdValue": 80533.33333333333,
+          "thresholdMetric": "CREATE-pods-count",
+          "thresholdRatio": 3.3685,
+          "thresholdExceeded": false
+        }
+      },
+      "UPDATE-virtualmachines-count": {
+        "value": 76994.26471209238
+      },
+      "WATCH-cdiconfigs-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-cdis-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-clusterrolebindings-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-clusterroles-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-configmaps-count": {
+        "value": 113.75333333333332
+      },
+      "WATCH-controllerrevisions-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-customresourcedefinitions-count": {
+        "value": 72.47999496666947
+      },
+      "WATCH-daemonsets-count": {
+        "value": 16.106666666666666
+      },
+      "WATCH-datasources-count": {
+        "value": 25.166666666666664
+      },
+      "WATCH-datavolumes-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-deployments-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-ingresses-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-jobs-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-kubevirts-count": {
+        "value": 54.35999552592841
+      },
+      "WATCH-leases-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-migrationpolicies-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-mutatingwebhookconfigurations-count": {
+        "value": 16.106666666666666
+      },
+      "WATCH-namespaces-count": {
+        "value": 40.266666666666666
+      },
+      "WATCH-nodes-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-persistentvolumeclaims-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-poddisruptionbudgets-count": {
+        "value": 24.159999999999997
+      },
+      "WATCH-pods-count": {
+        "value": 34.22666666666666
+      },
+      "WATCH-prometheusrules-count": {
+        "value": 16.106666666666666
+      },
+      "WATCH-resourcequotas-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-rolebindings-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-roles-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-secrets-count": {
+        "value": 24.159999999999997
+      },
+      "WATCH-serviceaccounts-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-servicemonitors-count": {
+        "value": 16.106666666666666
+      },
+      "WATCH-services-count": {
+        "value": 24.159999999999997
+      },
+      "WATCH-storageclasses-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-storageprofiles-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-validatingadmissionpolicies-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-validatingadmissionpolicybindings-count": {
+        "value": 17.11333333333333
+      },
+      "WATCH-validatingwebhookconfigurations-count": {
+        "value": 16.106666666666666
+      },
+      "WATCH-virtualmachinebackups-count": {
+        "value": 23.15333333333333
+      },
+      "WATCH-virtualmachinebackuptrackers-count": {
+        "value": 14.093333333333332
+      },
+      "WATCH-virtualmachineclones-count": {
+        "value": 7.046666666666666
+      },
+      "WATCH-virtualmachineclusterinstancetypes-count": {
+        "value": 23.153333333333332
+      },
+      "WATCH-virtualmachineclusterpreferences-count": {
+        "value": 25.166666666666664
+      },
+      "WATCH-virtualmachineexports-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-virtualmachineinstancemigrations-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-virtualmachineinstancepresets-count": {
+        "value": 15.099999999999998
+      },
+      "WATCH-virtualmachineinstancereplicasets-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-virtualmachineinstances-count": {
+        "value": 33.22
+      },
+      "WATCH-virtualmachineinstancetypes-count": {
+        "value": 7.046666666666666
+      },
+      "WATCH-virtualmachinepools-count": {
+        "value": 7.046666666666666
+      },
+      "WATCH-virtualmachinepreferences-count": {
+        "value": 7.046666666666666
+      },
+      "WATCH-virtualmachinerestores-count": {
+        "value": 23.15333333333333
+      },
+      "WATCH-virtualmachines-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-virtualmachinesnapshotcontents-count": {
+        "value": 8.053333333333333
+      },
+      "WATCH-virtualmachinesnapshots-count": {
+        "value": 8.053333333333333
+      },
+      "avgVirtAPICPUUsage": {
+        "value": 0.055730763749999995
+      },
+      "avgVirtAPIMemoryUsageInMB": {
+        "value": 174.06955384814046
+      },
+      "avgVirtControllerCPUUsage": {
+        "value": 0.35369616611111115
+      },
+      "avgVirtControllerMemoryUsageInMB": {
+        "value": 2020.173134039256
+      },
+      "maxVirtAPIMemoryUsageInMB": {
+        "value": 178.208984375
+      },
+      "maxVirtControllerMemoryUsageInMB": {
+        "value": 2786.546875
+      },
+      "minVirtAPIMemoryUsageInMB": {
+        "value": 132.2890625
+      },
+      "minVirtControllerMemoryUsageInMB": {
+        "value": 1097.48046875
+      },
+      "virtControllerWorkqueueAddRate": {
+        "value": 303.17052455344003
+      },
+      "virtControllerWorkqueueDepth": {
+        "value": 0.16905533664459158
+      },
+      "virtControllerWorkqueueP99Latency": {
+        "value": 6.897257133574175
+      },
+      "vmiCreationToRunningSecondsP50": {
+        "value": 0.6073350325686775,
+        "thresholdResult": {
+          "thresholdValue": 45,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP95": {
+        "value": 1.674551386623165,
+        "thresholdResult": {
+          "thresholdValue": 60,
+          "thresholdExceeded": false
+        }
+      },
+      "vmiCreationToRunningSecondsP99": {
+        "value": 1.9355628058727574
+      },
+      "vmiDeletionToFailedSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToFailedSecondsP99": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP50": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP95": {
+        "value": 0
+      },
+      "vmiDeletionToSucceededSecondsP99": {
+        "value": 0
+      }
+    }
+  }
+}
